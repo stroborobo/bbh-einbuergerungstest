@@ -167,8 +167,8 @@ html {
 }
 
 .button.is-large {
-	height: 60px;
-	font-size: 39px;
+	height: 50px;
+	font-size: 32px;
 }
 
 .button:hover,
@@ -276,14 +276,8 @@ html {
 	filter: none;
 }
 
-.answer.right {
-	background-color: #31ca36;
-	border-color: #31ca36;
-	color: white;
-}
-
-.answer.wrong {
-	background-color: #bd0b17;
-	border-color: #bd0b17;
+.answer.clicked {
+	background-color: black;
+	border-color: black;
 	color: white;
 }
